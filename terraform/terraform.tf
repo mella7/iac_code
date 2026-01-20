@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cloudcore007"
-    key    = "terraform.tfstate"
+    bucket = "mella7-bucket-01"
+    key = "terraform/terraform.tfstate"
     region = "us-east-1"
   }
 
