@@ -49,7 +49,7 @@ variable "iam-role" {
     --region us-east-1 \
     --filters "Name=name,Values=al2023-ami-*-x86_64" "Name=state,Values=available" \
     --query "Images | sort_by(@, &CreationDate)[-1].ImageId" \
-    --output text
+    --output text 
 
   Copy the returned AMI ID and update variables.tf.
 */
