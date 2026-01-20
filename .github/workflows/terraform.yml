@@ -68,9 +68,5 @@ jobs:
           with:
             terraform_version: 1.7.5
 
-        - name: Terraform Show
-          if: always()
-          run: terraform show planfile
-
 
         
