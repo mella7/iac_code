@@ -6,7 +6,7 @@ variable "region" {
 
 variable "vpc-name" {
   description = "VPC Name for our Jumphost server"
-  type = string
+  type = string 
   default = "Jumphost-vpc"
 }
 
